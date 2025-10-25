@@ -2,7 +2,7 @@
 
 nameProject=$1
 
-if [ -z $nameProject ] then
+if [ -z "$nameProject" ] then
 
   echo "please pass the name of the ansible project"
 
